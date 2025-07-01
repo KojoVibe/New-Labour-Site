@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regional Offices - Labour Department of Ghana</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="assets/labour-department-logo.png" alt="Labour Department of Ghana Logo" class="logo">
+                <div class="brand-text">
+                    <h1>Labour Department</h1>
+                    <p>Republic of Ghana</p>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="forms.html">Forms</a></li>
+                    <li><a href="regional-offices.html" class="active">Offices</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1>Regional Offices</h1>
+                <p>Find your nearest Labour Department office across Ghana's 16 regions</p>
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a> / <span>Regional Offices</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Regional Offices -->
+    <section class="offices-section">
+        <div class="container">
+            <!-- Search and Filter -->
+            <div class="office-search">
+                <div class="search-box">
+                    <input type="text" id="office-search" placeholder="Search by region or city...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="region-filter">
+                    <select id="region-filter">
+                        <option value="">All Regions</option>
+                        <option value="greater-accra">Greater Accra</option>
+                        <option value="ashanti">Ashanti</option>
+                        <option value="western">Western</option>
+                        <option value="central">Central</option>
+                        <option value="volta">Volta</option>
+                        <option value="eastern">Eastern</option>
+                        <option value="northern">Northern</option>
+                        <option value="upper-east">Upper East</option>
+                        <option value="upper-west">Upper West</option>
+                        <option value="brong-ahafo">Brong Ahafo</option>
+                        <option value="western-north">Western North</option>
+                        <option value="ahafo">Ahafo</option>
+                        <option value="bono">Bono</option>
+                        <option value="bono-east">Bono East</option>
+                        <option value="oti">Oti</option>
+                        <option value="north-east">North East</option>
+                        <option value="savannah">Savannah</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Head Office -->
+            <div class="head-office-section">
+                <h2>Head Office</h2>
+                <div class="office-card head-office">
+                    <div class="office-info">
+                        <h3>Labour Department Head Office</h3>
+                        <div class="office-details">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Ministry of Employment and Labour Relations<br>P.O. Box M.84, Accra</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+233 30 266 5421 / +233 30 266 5422</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>info@labour.gov.gh</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Mon-Fri: 8:00 AM - 5:00 PM<br>Sat: 8:00 AM - 12:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="office-services">
+                        <h4>Services Available</h4>
+                        <ul>
+                            <li>Policy Development & Implementation</li>
+                            <li>National Labour Statistics</li>
+                            <li>International Labour Relations</li>
+                            <li>Work Permit Approvals</li>
+                            <li>All Standard Labour Services</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Regional Offices Grid -->
+            <div class="regional-offices-grid">
+                <h2>Regional Offices</h2>
+                
+                <!-- Greater Accra Region -->
+                <div class="office-card" data-region="greater-accra">
+                    <div class="office-header">
+                        <h3>Greater Accra Regional Office</h3>
+                        <span class="region-badge">Greater Accra</span>
+                    </div>
+                    <div class="office-content">
+                        <div class="office-info">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Labour Department<br>Tema Station, Accra</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+233 30 221 4567</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>accra@labour.gov.gh</span>
+                            </div>
+                        </div>
+                        <div class="office-coverage">
+                            <h4>Areas Covered</h4>
+                            <p>Accra Metropolitan, Tema, Ga East, Ga West, Ga Central, Ga South</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ashanti Region -->
+                <div class="office-card" data-region="ashanti">
+                    <div class="office-header">
+                        <h3>Ashanti Regional Office</h3>
+                        <span class="region-badge">Ashanti</span>
+                    </div>
+                    <div class="office-content">
+                        <div class="office-info">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Labour Department<br>Kumasi Central, Ashanti Region</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+233 32 202 3456</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>kumasi@labour.gov.gh</span>
+                            </div>
+                        </div>
+                        <div class="office-coverage">
+                            <h4>Areas Covered</h4>
+                            <p>Kumasi Metropolitan, Obuasi, Ejisu, Bekwai, Mampong, Konongo</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Western Region -->
+                <div class="office-card" data-region="western">
+                    <div class="office-header">
+                        <h3>Western Regional Office</h3>
+                        <span class="region-badge">Western</span>
+                    </div>
+                    <div class="office-content">
+                        <div class="office-info">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Labour Department<br>Sekondi-Takoradi, Western Region</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+233 31 203 4567</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>takoradi@labour.gov.gh</span>
+                            </div>
+                        </div>
+                        <div class="office-coverage">
+                            <h4>Areas Covered</h4>
+                            <p>Sekondi-Takoradi, Tarkwa, Prestea, Axim, Half Assini</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Central Region -->
+                <div class="office-card" data-region="central">
+                    <div class="office-header">
+                        <h3>Central Regional Office</h3>
+                        <span class="region-badge">Central</span>
+                    </div>
+                    <div class="office-content">
+                        <div class="office-info">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Labour Department<br>Cape Coast, Central Region</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+233 33 213 2345</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>capecoast@labour.gov.gh</span>
+                            </div>
+                        </div>
+                        <div class="office-coverage">
+                            <h4>Areas Covered</h4>
+                            <p>Cape Coast, Elmina, Winneba, Kasoa, Swedru, Dunkwa</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Volta Region -->
+                <div class="office-card" data-region="volta">
+                    <div class="office-header">
+                        <h3>Volta Regional Office</h3>
+                        <span class="region-badge">Volta</span>
+                    </div>
+                    <div class="office-content">
+                        <div class="office-info">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Labour Department<br>Ho, Volta Region</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+233 36 202 1234</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>ho@labour.gov.gh</span>
+                            </div>
+                        </div>
+                        <div class="office-coverage">
+                            <h4>Areas Covered</h4>
+                            <p>Ho, Keta, Aflao, Denu, Sogakope, Kpando</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Eastern Region -->
+                <div class="office-card" data-region="eastern">
+                    <div class="office-header">
+                        <h3>Eastern Regional Office</h3>
+                        <span class="region-badge">Eastern</span>
+                    </div>
+                    <div class="office-content">
+                        <div class="office-info">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Labour Department<br>Koforidua, Eastern Region</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+233 34 202 3456</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>koforidua@labour.gov.gh</span>
+                            </div>
+                        </div>
+                        <div class="office-coverage">
+                            <h4>Areas Covered</h4>
+                            <p>Koforidua, Akosombo, Nkawkaw, Mpraeso, Begoro</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Northern Region -->
+                <div class="office-card" data-region="northern">
+                    <div class="office-header">
+                        <h3>Northern Regional Office</h3>
+                        <span class="region-badge">Northern</span>
+                    </div>
+                    <div class="office-content">
+                        <div class="office-info">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Labour Department<br>Tamale, Northern Region</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+233 37 202 4567</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>tamale@labour.gov.gh</span>
+                            </div>
+                        </div>
+                        <div class="office-coverage">
+                            <h4>Areas Covered</h4>
+                            <p>Tamale, Yendi, Savelugu, Tolon, Gushegu</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Upper East Region -->
+                <div class="office-card" data-region="upper-east">
+                    <div class="office-header">
+                        <h3>Upper East Regional Office</h3>
+                        <span class="region-badge">Upper East</span>
+                    </div>
+                    <div class="office-content">
+                        <div class="office-info">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Labour Department<br>Bolgatanga, Upper East Region</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+233 38 202 5678</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>bolgatanga@labour.gov.gh</span>
+                            </div>
+                        </div>
+                        <div class="office-coverage">
+                            <h4>Areas Covered</h4>
+                            <p>Bolgatanga, Navrongo, Bawku, Paga, Zebilla</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Upper West Region -->
+                <div class="office-card" data-region="upper-west">
+                    <div class="office-header">
+                        <h3>Upper West Regional Office</h3>
+                        <span class="region-badge">Upper West</span>
+                    </div>
+                    <div class="office-content">
+                        <div class="office-info">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Labour Department<br>Wa, Upper West Region</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+233 39 202 6789</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>wa@labour.gov.gh</span>
+                            </div>
+                        </div>
+                        <div class="office-coverage">
+                            <h4>Areas Covered</h4>
+                            <p>Wa, Lawra, Jirapa, Tumu, Hamile</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Office Services Information -->
+            <div class="services-info">
+                <h2>Services Available at All Offices</h2>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <i class="fas fa-file-contract"></i>
+                        <h3>Employment Services</h3>
+                        <p>Job placement, career guidance, and employment matching</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Labour Inspection</h3>
+                        <p>Workplace safety inspections and compliance monitoring</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-balance-scale"></i>
+                        <h3>Dispute Resolution</h3>
+                        <p>Mediation and arbitration of labour disputes</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Skills Development</h3>
+                        <p>Training programs and capacity building initiatives</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="contact-info-section">
+                <h2>Need Assistance?</h2>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Call Us</h3>
+                        <p>For general inquiries, call our head office at <strong>+233 30 266 5421</strong></p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email Us</h3>
+                        <p>Send your questions to <strong>info@labour.gov.gh</strong></p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Office Hours</h3>
+                        <p>Monday - Friday: 8:00 AM - 5:00 PM<br>Saturday: 8:00 AM - 12:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Labour Department</h3>
+                    <p>Promoting decent work and protecting workers' rights in Ghana.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#laws">Labour Laws</a></li>
+                        <li><a href="forms.html">Forms</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Employment Services</a></li>
+                        <li><a href="#">Work Permits</a></li>
+                        <li><a href="#">Labour Inspection</a></li>
+                        <li><a href="#">Industrial Relations</a></li>
+                        <li><a href="#">Skills Development</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="forms.html">Forms & Applications</a></li>
+                        <li><a href="index.html#laws">Labour Laws</a></li>
+                        <li><a href="#">Publications</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="regional-offices.html">Regional Offices</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 Labour Department of Ghana. All rights reserved.</p>
+                    <div class="footer-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Accessibility</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Office search and filter functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('office-search');
+            const regionFilter = document.getElementById('region-filter');
+            const officeCards = document.querySelectorAll('.office-card[data-region]');
+
+            function filterOffices() {
+                const searchTerm = searchInput.value.toLowerCase();
+                const selectedRegion = regionFilter.value;
+
+                officeCards.forEach(card => {
+                    const regionMatch = !selectedRegion || card.dataset.region === selectedRegion;
+                    const searchMatch = !searchTerm || 
+                        card.textContent.toLowerCase().includes(searchTerm);
+
+                    if (regionMatch && searchMatch) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            }
+
+            searchInput.addEventListener('input', filterOffices);
+            regionFilter.addEventListener('change', filterOffices);
+        });
+    </script>
+</body>
+</html>

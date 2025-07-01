@@ -10,6 +10,8 @@ This is the official website for the Labour Department of Ghana, designed to pro
   - About the Department
   - Services offered (Employment, Labour Inspection, Industrial Relations, etc.)
   - Labour Laws & Regulations
+  - Forms & Applications (downloadable PDFs)
+  - Regional Offices directory with search functionality
   - Latest News & Updates
   - Contact Information
 - **Interactive Elements**: Smooth scrolling, animated counters, form validation
@@ -43,13 +45,16 @@ npx http-server
 
 ```
 /
-├── index.html          # Main website file
-├── styles.css          # Styling and layout
-├── script.js           # Interactive functionality
-├── assets/             # Images and media files
-│   ├── README.md       # Instructions for image placement
+├── index.html              # Main homepage
+├── forms.html              # Forms & Applications page
+├── regional-offices.html   # Regional Offices directory
+├── styles.css              # Complete styling and layout
+├── script.js               # Interactive functionality
+├── sitemap.xml             # SEO sitemap
+├── assets/                 # Images and media files
+│   ├── README.md           # Instructions for image placement
 │   └── labour-department-logo.png  # Department logo
-└── README.md           # This file
+└── README.md               # This documentation
 ```
 
 ## Customization
